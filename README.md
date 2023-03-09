@@ -4,7 +4,7 @@ Secure-Flask-Auth is a Python Flask project that provides a secure authenticatio
 
 # Features
 * Password hashing using bcrypt to store user passwords securely
-* Protection against common web application vulnerabilities, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and  * SQL Injection
+* Protection against common web application vulnerabilities, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and SQL Injection
 * User session management with secure cookie storage and token-based authentication
 * Secure password reset functionality with time-limited reset links
 * Thorough logging of security events for auditing and troubleshooting
