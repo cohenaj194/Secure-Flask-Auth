@@ -11,7 +11,7 @@ Secure-Flask-Auth is a Python Flask project that provides a secure authenticatio
 
 # Installation
 1. Clone this repository
-2. Create a virtual environment
+2. Create a virtual environment (optional)
 3. Install the required packages by running pip install -r requirements.txt
 4. Set environment variables for FLASK_APP and FLASK_ENV
 5. Run the application using flask run
