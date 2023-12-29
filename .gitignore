@@ -1,6 +1,7 @@
 uploads/*
 database.db
 users.db
+openapi-spec.yml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

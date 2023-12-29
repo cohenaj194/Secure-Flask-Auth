@@ -1,0 +1,141 @@
+components: {}
+info:
+  title: Secure-Flask-Auth1
+  version: "0.1"
+openapi: 3.0.0
+paths:
+  /:
+    get:
+      operationId: root_GET
+      responses:
+        default:
+          description: Default response
+      x-name: root_GET
+      x-source: in.py~~101
+    post:
+      operationId: root_POST
+      responses:
+        default:
+          description: Default response
+      x-name: root_POST
+      x-source: in.py~~101
+    x-name: root
+  /create_account:
+    get:
+      operationId: create_account_GET
+      parameters:
+      - in: query
+        name: password
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      - in: query
+        name: username
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      responses:
+        default:
+          description: Default response
+      x-name: create_account_GET
+      x-source: in.py~~32
+    post:
+      operationId: create_account_POST
+      parameters:
+      - in: query
+        name: password
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      - in: query
+        name: username
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      responses:
+        default:
+          description: Default response
+      x-name: create_account_POST
+      x-source: in.py~~32
+    x-name: create_account
+  /login:
+    get:
+      operationId: login_GET
+      parameters:
+      - in: query
+        name: password
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      - in: query
+        name: username
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      responses:
+        default:
+          description: Default response
+      x-name: login_GET
+      x-source: in.py~~60
+    post:
+      operationId: login_POST
+      parameters:
+      - in: query
+        name: password
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      - in: query
+        name: username
+        schema:
+          type: string
+          x-field-kind: normal
+          x-field-original-type: ""
+          x-field-type: string
+        x-category: query parameter
+      responses:
+        default:
+          description: Default response
+      x-name: login_POST
+      x-source: in.py~~60
+    x-name: login
+  /logout:
+    get:
+      operationId: logout_GET
+      responses:
+        default:
+          description: Default response
+      x-name: logout_GET
+      x-source: in.py~~105
+    post:
+      operationId: logout_POST
+      responses:
+        default:
+          description: Default response
+      x-name: logout_POST
+      x-source: in.py~~105
+    x-name: logout
+servers:
+- description: Default server
+  url: http://127.0.0.1:5000
